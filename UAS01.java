@@ -91,17 +91,17 @@ public class UAS01 {
     public static void main(String[] args) {
         // Membuat objek Mahasiswa
         System.out.println("=======  Mahasiswa =======");
-        Mahasiswa mahasiswa1 = new Mahasiswa("Tuti", 20);
+        Mahasiswa mahasiswa1 = new Mahasiswa("AFFA", 20);
         mahasiswa1.displayInfo();
 
         // Membuat objek MahasiswaBaru
         System.out.println("=======  Mahasiswa Baru =======");
-        MahasiswaBaru mahasiswaBaru1 = new MahasiswaBaru("Bagas", 18, 1237856);
+        MahasiswaBaru mahasiswaBaru1 = new MahasiswaBaru("ALDY", 23, 1237856);
         mahasiswaBaru1.displayInfo();
 
         // Membuat objek MahasiswaLama
         System.out.println("=======  Mahasiswa Lama =======");
-        MahasiswaLama mahasiswaLama1 = new MahasiswaLama("Cantika", 23, 2017);
+        MahasiswaLama mahasiswaLama1 = new MahasiswaLama("Cantika", 21, 2017);
         mahasiswaLama1.displayInfo();
     }
 }
