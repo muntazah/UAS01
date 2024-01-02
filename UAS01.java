@@ -101,7 +101,7 @@ public class UAS01 {
 
         // Membuat objek MahasiswaLama
         System.out.println("=======  Mahasiswa Lama =======");
-        MahasiswaLama mahasiswaLama1 = new MahasiswaLama("Cantika", 21, 2017);
+        MahasiswaLama mahasiswaLama1 = new MahasiswaLama("AGUS", 21, 2017);
         mahasiswaLama1.displayInfo();
     }
 }
